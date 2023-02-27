@@ -21,7 +21,7 @@ body, html
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 105%;
+    height: 950px;
     position: absolute;
     display: block;
     top: 0;
@@ -38,7 +38,25 @@ body, html
     width: 200px;
 }
 
-br
+.space
 {
-    /* margin-top: 20px; */
+    height: 20px;
+}
+
+
+
+@media screen and (min-height: 750px)
+{
+    .space-ifbig
+    {
+        height: 20px;
+    }
+}
+
+@media screen and (min-height: 900px)
+{
+    #bg
+    {
+        height: 105%;
+    }
 }
