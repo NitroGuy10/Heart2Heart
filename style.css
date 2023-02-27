@@ -23,3 +23,9 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#title-image
+{
+    margin-top: 30px;
+    width: 200px;
+}
